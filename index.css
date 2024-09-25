@@ -7,10 +7,10 @@
         }
 
      h1 {
-        color: hotpink;
-        font-size: 2em;
+        color: dark blue;
+        font-size: 3em;
         font-family: Georgia, "Times New Roman", Times, serif;
-        border-bottom: 10px dotted purple;
+        border-bottom: 12px dotted gold;
         }
 
 h1::after {
@@ -19,9 +19,9 @@ h1::after {
         left: 0;
         bottom: 0; /* Position it at the bottom of the h1 */
         width: 100%;
-        height: 2px; /* Thickness of the dotted line */
-        background: linear-gradient(to right, purple 33%, transparent 33%, transparent 66%, purple 66%);
-        background-size: 10px 2px; /* Adjust for dot spacing */
+        height: 3px; /* Thickness of the dotted line */
+        background: linear-gradient(to right, blue 33%, transparent 33%, transparent 66%, blue 66%);
+        background-size: 14px 3px; /* Adjust for dot spacing */
         }
 
      h2 {
@@ -31,8 +31,8 @@ h1::after {
 
 ul.contact-details {
         background-color: #eeeeee; /* Light grey background */
-        border: 5px solid purple; /* Purple border */
-        padding: 10px; /* Padding to push content away from the border */
+        border: 7px dashed blue; /* Purple border */
+        padding: 14px; /* Padding to push content away from the border */
         list-style-type: none; /* Optional: removes bullet points */
         }
 
