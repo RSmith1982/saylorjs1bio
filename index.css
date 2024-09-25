@@ -7,15 +7,24 @@
       }
 
       h1 {
-        color: #375e97;
+        color: hotpink;
         font-size: 2em;
         font-family: Georgia, "Times New Roman", Times, serif;
-        border-bottom: 1px solid #375e97;
+        border-bottom: 10px dotted purple;
       }
 
       h2 {
         font-size: 1.5em;
+        font-weight: italic;
       }
+
+      ul.contact-details {
+        background-color: #eeeeee; /* Light grey background */
+        border: 5px solid purple; /* Purple border */
+        padding: 10px; /* Padding to push content away from the border */
+        list-style-type: none; /* Optional: removes bullet points */
+      }
+
 
       .job-title {
         color: #999999;
@@ -29,4 +38,5 @@
 
       a:hover {
         text-decoration: none;
+        color: green;
       }
